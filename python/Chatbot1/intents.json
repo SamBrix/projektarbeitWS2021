@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "hallo", "greetings", "what's up?", "how is it going?"],
+      "responses": ["Hello!", "Hey", "What can I do for you?"]
+    },
+    {
+      "tag": "goodbyes",
+      "patterns": ["see you", "bye", "cya", "goodbye", "later", "ciao", "have a nice day?"],
+      "responses": ["Goodbye!", "See you!", "Talk to you later", "No don't leave me alone!", "Gotta go", "K bye"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old", "how old are you?", "what is your age", "do you have an age?", "age?", "how old is your creator"],
+      "responses": ["My creator is 25 years old!", "I am very young!", "Not even a month, but I dont think normal rules apply to me."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["Whats your name", "can you tell me your name", "Who are you", "What should I call you", "Do you have a name"],
+      "responses": ["My name is Bot1", "I am Bot1", "U can call me Bot1"]
+    }
+
+  ]
+}
